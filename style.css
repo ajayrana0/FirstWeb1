@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.4)50%, rgba(0,0,0,0.4)50%), url(img1.jpg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding-top: 20px;
+}
+.icon{
+   width: 200px;
+   float: left;
+   height: 70px;
+}
+.logo{ 
+    color: rgb(203, 195, 195); 
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:aliceblue ;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(58, 55, 55);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left:  270px;
+}
+.search1{
+    font-family: 'times new Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.btn{
+    width: 100px;
+    height: 52px;
+    background: rgb(203, 195, 195); 
+    border: 2px solid white;
+    margin-top: 13px;
+    color: black;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+}
+.search1:focus{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+.content{
+    box-sizing: 1px black bold;
+    color: #F5F5F5;
+    float: left;
+    padding-top: 50px;
+    margin-top: 80px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    border: black 10px;
+    margin-bottom: 50px;
+}
+.content {
+    
+}
+.content .para{
+    padding-top: 10px;
+    font-family: Arial;
+    letter-spacing: 1.4px;
+    margin-top: 10px;
+    background: transparent;
+}
+.content .cn{
+    width: 150px;
+    height: 40px;
+    background-color:  rgb(203, 195, 195);;
+    border-radius: 8px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', ;
+    text-size-adjust: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .15s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color:white;
+    transition: .20ss;
+}
+.cn:hover{
+    background-color: transparent;
+}
+.form{
+    width: 250px;
+    height: 350px;
+    border: #808080 solid 2px;
+    position: absolute;
+    top: 40px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 160px;
+    margin-left: 160px;
+    background: linear-gradient(to top, rgb(34, 34, 88)50%, rgb(12, 4, 11)50%);
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #808080;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: white 10px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    padding: 5px;
+    margin-top: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:  2px solid #808080;
+    color: white;
+    font-size: 15px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background:  rgb(203, 195, 195);
+    border: none;
+    margin-top: 60px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    text-decoration: dotted;
+    font-family: Arial;
+    text-indent: 10px;
+    color: #808080;
+}
+.btnn:hover{
+    background-color:white;
+    color: black;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top:20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: rgb(182, 193, 33);
+    margin-top: 100px;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    color: blue;
+}
